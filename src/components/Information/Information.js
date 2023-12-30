@@ -1,7 +1,12 @@
 import React from 'react';
 import './Information.css'
 
-const Information = () => {
+const Information = ({totalTime}) => {
+    let total = 0;
+    for (const time of totalTime) {
+        total = total + time;
+    }
+
     return (
         <div className='all-information'>
             <h2>Easir Arafat</h2>
@@ -16,7 +21,7 @@ const Information = () => {
                 </div>
                 <div>
                     <h4>Total Spending Time in Hours</h4>
-                    <p>Total Time:</p>
+                    <p>Total Time: {total}</p>
                     <p>Break Time:</p>
                 </div>
                 <div className='btn-done'>

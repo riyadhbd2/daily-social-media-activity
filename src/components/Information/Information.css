@@ -29,5 +29,7 @@
     border-radius: 10px;
     color: white;
     padding: 10px;
-    
+}
+.btn-done button:hover{
+    background-color: fuchsia;
 }

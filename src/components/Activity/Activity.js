@@ -2,7 +2,7 @@ import React from 'react';
 import './Activity.css'
 
 const Activity = (props) => {
-    const {activity} = props;
+    const {activity, addToList} = props;
     const {id, name, img, time } = activity;
     return (
         <div className='activity'>
@@ -10,9 +10,9 @@ const Activity = (props) => {
             <div className='activity-info'>
                 <div className='first-info'>
                 <h4>Name: {name}</h4>
-                <h5>Time: {time} hour</h5>
+                <h5>Time: {time}</h5>
                 </div>
-                <button className='btn-add'>Add to list</button>
+                <button onClick={()=>addToList(activity.time)} className='btn-add'>Add to list</button>
             </div>
         </div>
     );
