@@ -1,0 +1,12 @@
+.activities-all{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    background-color: azure;
+    height: 100%;
+}
+.activities{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-left: 100px;
+}

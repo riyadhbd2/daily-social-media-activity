@@ -1,0 +1,38 @@
+[
+    {
+        "id": "a101",
+        "name": "FACEBOOK",
+        "time": 3,
+        "img": "https://photos5.appleinsider.com/gallery/50730-99989-Facebook-app-logo-xl.jpg"
+    },
+    {
+        "id": "a102",
+        "name": "INSTAGRAM",
+        "time": 1,
+        "img": "https://img.utdstc.com/screen/630/8a7/6308a7097370df7dd7f1cfb9a210229af08ed1071edd0aa5bee2010d57889d85:600"
+    },
+    {
+        "id": "a103",
+        "name": "YOUTUBE",
+        "time": 5,
+        "img": "https://www.barnevakten.no/wp-content/uploads/2020/01/youtube_shutterstock_1216459666.jpg"
+    },
+    {
+        "id": "a104",
+        "name": "WHATSAPP",
+        "time": 6,
+        "img": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2017/11/Whatsapp.jpg"
+    },
+    {
+        "id": "a105",
+        "name": "LINKEDIN",
+        "time": 2,
+        "img": "https://cdn.yoo.rs/uploads/176495/images/1637655738-linkedin-101-hero2x.png"
+    },
+    {
+        "id": "a106",
+        "name": "XING",
+        "time": 1,
+        "img": "https://karrierebibel.de/wp-content/uploads/2020/02/Xing-Profil-loeschen-deaktivieren-Tipps-Anleitung-1000x667.jpeg"
+    }
+]

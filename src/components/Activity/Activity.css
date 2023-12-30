@@ -1,0 +1,30 @@
+.activity{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 210px;
+    position: relative;
+}
+.activity img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.first-info{
+    margin-left: 5px;
+}
+    
+.btn-add{
+    background-color: pink;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 210px;
+    position: absolute;
+    bottom: 0;
+}
+.btn-add:hover{
+    background-color: aquamarine;
+}
