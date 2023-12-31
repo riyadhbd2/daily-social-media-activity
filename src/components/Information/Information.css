@@ -1,5 +1,7 @@
 .all-information{
     margin-left: 20px;
+    position: sticky;
+    top: 0;
 }
 .all-information h2{
     text-align: center;
