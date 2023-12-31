@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Information.css'
+import './Information.css';
 
 
 
@@ -12,17 +12,13 @@ const Information = ({totalTime}) => {
     }
 
 
-
 const addBreak =(e)=>{
-    setBreakTime(e.target.value);
+setBreakTime(e.target.value);
+    
 }
 
-
-localStorage.setItem("breakTime", breakTime);
-const getItem = localStorage.getItem("breakTime");
-
 const showMessage = () =>{
-    alert("All Social Media Activities Done For Today")
+    alert("All Social Media Activities Done For Today");
 }
 
 
@@ -41,7 +37,7 @@ const showMessage = () =>{
                 <div>
                     <h4>Total Spending Time in Hours</h4>
                     <p>Total Time: {total}</p>
-                    <p>Break Time: {getItem}</p>
+                    <p>Break Time: {breakTime}</p>
                 </div>
                 <div className='btn-done'>
                     <button onClick={showMessage}>Daily Activity Done</button>
