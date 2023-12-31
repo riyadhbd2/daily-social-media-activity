@@ -2,7 +2,11 @@
     border: 1px solid gray;
     border-radius: 5px;
     width: 210px;
+    height: 400px;
     position: relative;
+    margin-left: 130px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .activity img{
     height: 200px;

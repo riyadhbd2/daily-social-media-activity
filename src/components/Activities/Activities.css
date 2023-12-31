@@ -1,9 +1,7 @@
 .activities-all{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
     background-color: azure;
-    height: 100%;
 }
 @media screen and (max-width:1100px){
     .activities-all{
@@ -15,17 +13,29 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin-left: 100px;
+    margin-bottom: 50px;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .header h2{
     color: cornflowerblue;
 }
 .header h1{
     color: deeppink;
+}
+.question-answer h2{
+    text-align: center;
+    margin-top: 30px;
+
+}
+@media screen and (max-width:1100px){
+    .question-answer{
+        
+    }
+    
 }
