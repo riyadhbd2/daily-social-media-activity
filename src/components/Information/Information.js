@@ -5,6 +5,7 @@ import './Information.css'
 
 const Information = ({totalTime}) => {
     const[breakTime, setBreakTime] = useState(0);
+    
     let total = 0;
     for (const time of totalTime) {
         total = total + time;
@@ -15,6 +16,15 @@ const Information = ({totalTime}) => {
 const addBreak =(e)=>{
     setBreakTime(e.target.value);
 }
+
+
+localStorage.setItem("breakTime", breakTime);
+const getItem = localStorage.getItem("breakTime");
+
+const showMessage = () =>{
+    alert("All Social Media Activities Done For Today")
+}
+
 
     return (
         <div className='all-information'>
@@ -31,10 +41,10 @@ const addBreak =(e)=>{
                 <div>
                     <h4>Total Spending Time in Hours</h4>
                     <p>Total Time: {total}</p>
-                    <p>Break Time: {breakTime}</p>
+                    <p>Break Time: {getItem}</p>
                 </div>
                 <div className='btn-done'>
-                    <button>Daily Activity Done</button>
+                    <button onClick={showMessage}>Daily Activity Done</button>
                 </div>
             </div>
         </div>
